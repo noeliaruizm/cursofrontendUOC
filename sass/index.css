@@ -1,0 +1,135 @@
+.btn-main, .btn-main-s {
+  background-color: #fff;
+  color: #451f55;
+  padding: 0.25rem 1.5rem;
+  border-radius: 1.25rem;
+  margin-top: 0.5rem;
+  border: solid #451f55;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: #451f55;
+  color: #fff;
+}
+.btn-main-s {
+  font-size: 0.9rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 1.25rem;
+  color: #22162b;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.9rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 1rem;
+  list-style: none;
+  display: inline;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+.icon-sm i {
+  color: #451f55;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #451f55;
+  font-size: 7rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #451f55;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #451f55;
+  font-size: 7rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  background-color: #f9f9f9;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 3rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #000;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 2rem;
+  color: #451f55;
+}/*# sourceMappingURL=index.css.map */

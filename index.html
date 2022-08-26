@@ -24,60 +24,91 @@
                 <img src="img/logo.png" alt="logo">
             </a>
         </div>
-        <div class="menu">
+        <div class="menu d-none d-md-block">
             <ul class="main-menu">
-                <li><a href="cv.html">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="cv.html">CV</a></li>
             </ul>
         </div>
         <div class="get-started">
-            <button class="btn-main-s">Contacto</button>
+            <a href="contacto.html"><button class="btn-main-s">Contacto</button></a>
         </div>
     </nav>
     <section class="sec-home">
         <div class="home-cta">
             <div class="cta-text">
-                <span>Mira mi Portfolio</span>
-                <i class="bi bi-arrow-right"></i>
+                <a href="cv.html"><span>Mira mi Portfolio</span>
+                <i class="bi bi-arrow-right"></a></i>
             </div>
             <h2 class="home-title h2">👋 Hola, soy Noelia</h2>
+            <p class="home-description">Fotógrafa desde hace más de 10 años, siempre he estado ligada al diseño gráfico y al diseño web desde que empecé, todo de forma autodidacta.<br> 
+                Ahora he decidido formarme como UX Designer & Researcher y meterme de lleno en el desarrollo Front-End.</p>
+                <div class="lead-magnet row align-items-center">
+                    <div class="col">
+                    <input type="text" 
+                    class="form-control" 
+                    placeholder="Deja tu e-mail.">
+                    </div>
+                    <div class="col">
+                        <button class="btn-main">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="home-image d-none d-md-block">
+                <img src="img/undraw_designer_life_re_6ywf.svg" alt="Diseñadora" />
+            </div>
+    </section>
+    <div class="intro-proyectos">
+        <h3>Mis proyectos</h3>
+    </div>
+    <section class="sec-articulo">
+            <div class="articulo-cards row">
+                <div class="articulo col-sm">
+                <a><img src="img/guardiolapenalistas.png" alt="Guardiola Penalistas" class="img1"></a>
+                    <div class="description">
+                        <h5 class="title-articulo">Guardiola Penalistas</h5>
+                        <p class="text-articulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ex non tortor interdum aliquet. Maecenas nisi est, maximus nec convallis ut, maximus at dolor.</p>
+                    </div>
+                </div>
+                <div class="articulo col-sm">
+                <a><img src="img/noeliaweb.png" alt="Noelia Ruiz" class="img2"></a>
+                <div class="description">
+                    <h5 class="title-articulo">Noelia Ruiz - Fotógrafa de conciertos</h5>
+                    <p class="text-articulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend ex non tortor interdum aliquet. Maecenas nisi est, maximus nec convallis ut, maximus at dolor.</p>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section class="sec-progress">
+        <div class="progress-general row">
+        <p class="progress-text">HTML</p>
+        <div class="progreso col-sm">
+            <div class="progress" style="width: 100%;">
+                <div class="progress-bar" style="width: 70%">70%</div>
+            </div>
         </div>
-            <div class="home-img">
-            <img src="img/undraw_designer_life_re_6ywf.svg" alt="Diseñadora" width="80%">
+        <p class="progress-text">CSS</p>
+        <div class="progreso col-sm">
+            <div class="progress" style="width: 100%">
+                <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                50%</div>
+                </div>
+        </div>
+        <p class="progress-text">JS</p>
+        <div class="progreso col-sm">
+            <div class="progress" style="width: 100%">
+                <div class="progress-bar bg-warning" role="progressbar" aria-label="warning example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                25%</div>
+                </div>
+        </div>
+    </div>
+    </section>
+    <section class="sec-footer-cta">
+        <div class="footer-cta">
+            <h4 class="title">Si te interesa lo que ves...</h4>
+            <p class="cta-description">...puedes contactar conmigo en el siguiente botón.</p>
+            <button class="btn-main">Contacta conmigo</button>
         </div>
     </section>
-    <section class="sec-call-to-action"></section>
-    <section class="sec-features"></section>
-    <section class="sec-benefits"></section>
-    <section class="sec-kpis"></section>
-    <section class="sec-onboarding"></section>
-    <section class="sec-footer-cta"></section>
-
-    <div class="container">
-        <div class="feature">
-            <i class="bi bi-eye-fill icon"></i>
-            <div class="description">
-                <h3 class="title">Secure storage</h3>
-                <p class="text">We store blablabla</p>
-            </div>
-            <p class="cta">Este es el cta</p>
-        </div>
-        <div class="icon-desc">
-            <i class="bi bi-eye-fill icon"></i>
-            <h3 class="title">Crea una cuenta</h3>
-        </div>
-        <ul class="main-menu">
-            <li>Precios</li>
-            <li>Hola</li>
-            <li>Qué tal</li>
-            <li>Precios2</li>
-            <li>Plantas</li>
-            <li>Gato</li>
-        </ul>
-        <span class="icon-sm">
-            <i class="bi bi-balloon-heart-fill"></i>
-        </span>
-    </div>
 </body>
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
